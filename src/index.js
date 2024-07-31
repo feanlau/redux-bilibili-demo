@@ -1,5 +1,4 @@
-console.log("Redux Hello!");
-
+// console.log("Redux Hello!");
 const root = document.getElementById("app");
 const addBook = document.getElementById("addBook");
 const delBook = document.getElementById("delBook");
@@ -15,3 +14,12 @@ delBookBtn.innerText = "DEL BOOK"
 
 addBookBtn.addEventListener("click", addBookBtn)
 delBookBtn.addEventListener("click", delBookBtn)
+
+
+function addBookFn(){}
+function delBookFn(){}
+
+addBook.appendChild(bookNameInput)
+addBook.appendChild(addBookBtn)
+delBook.appendChild(bookIdInput)
+delBook.appendChild(delBookBtn)
