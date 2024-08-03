@@ -88,6 +88,7 @@ function addBookFn() {
 // 删除书籍函数
 function delBookFn() {
     const bookId = bookIdInput.value
+    console.log("bookId", bookId);
     if (bookId) {
         bookIdInput.value = ''
         const action = {
